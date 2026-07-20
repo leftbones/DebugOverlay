@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b36b4aqkcb6lj"]
+
+[ext_resource type="Script" uid="uid://blaexm4msj1n2" path="res://addons/debug_overlay/widgets/debug_label.gd" id="1_yil3t"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qsppb"]
+content_margin_left = 4.0
+content_margin_right = 4.0
+bg_color = Color(0, 0, 0, 0.2509804)
+
+[node name="DebugLabel" type="Label" unique_id=1218947036]
+size_flags_horizontal = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_qsppb")
+text = "label: text"
+script = ExtResource("1_yil3t")
