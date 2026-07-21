@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://du0fshxwbav0w"]
+
+[ext_resource type="Script" uid="uid://dd1estq3srvgh" path="res://addons/debug_overlay/core/widget_block.gd" id="1_a137l"]
+
+[node name="WidgetBlock" type="Control" unique_id=1972711516]
+layout_mode = 3
+anchors_preset = 0
+mouse_filter = 2
+mouse_behavior_recursive = 1
+script = ExtResource("1_a137l")
